@@ -1,25 +1,34 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #f4e4ba;
+    padding: 1rem;
 }
 
-.container{
+.container {
     background-color: #fff;
     padding: 2rem;
     border-radius: 1rem;
     min-height: 45vh;
-    width: 40vh;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-form{
+p {
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+}
+
+form {
     margin: 2rem 0 1rem 0;
 }
 
@@ -44,11 +53,14 @@ form input {
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .dropdown i {
     font-size: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    align-self: center;
 }
 
 .select-container img {
@@ -59,7 +71,8 @@ form input {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 6rem;
+    width: 100%;
+    max-width: 6rem;
     border-radius: 0.5rem;
     border: 1px solid lightgray;
 }
@@ -71,6 +84,8 @@ form input {
 
 .msg {
     margin: 2rem 0;
+    font-size: 1rem;
+    text-align: center;
 }
 
 form button {
@@ -79,4 +94,25 @@ form button {
     color: #fff;
     font-size: 1.15rem;
     cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #8c3c78;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem;
+    }
+    
+    .dropdown {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dropdown i {
+        transform: rotate(90deg);
+    }
 }
