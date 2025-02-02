@@ -105,6 +105,9 @@ form button:hover {
 @media (max-width: 480px) {
     .container {
         padding: 1.5rem;
+        position: fixed;
+        top: 20px;
+        width: 85%;
     }
     
     .dropdown {
