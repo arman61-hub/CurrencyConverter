@@ -12,6 +12,8 @@ This repository contains a simple currency converter web application built using
 ## How to Use
 
 1. Clone this repository to your local machine.
+   ```bash
+   git clone https://github.com/arman61-hub/CurrencyConverter.git
 2. Open the `index.html` file in your web browser.
 3. Enter the amount you want to convert and select the currencies you want to convert from and to.
 4. Click on the "Get Exchange Rate" button to see the converted amount.
