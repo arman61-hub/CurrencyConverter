@@ -18,7 +18,7 @@ This repository contains a simple currency converter web application built using
 
 ## API Used
 
-This application fetches real-time exchange rates from the [Exchange Rates API](https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/inr.json). You may need to sign up for an API key to use their service.
+This application fetches real-time exchange rates from the [Exchange Rates API](https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json). You may need to sign up for an API key to use their service.
 
 ## How It Works
 
